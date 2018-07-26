@@ -84,10 +84,42 @@ namespace 泛型练习
             string str = "Welcome to China";
             str = str.ToLower();
             string[] strs = str.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            
-            foreach (var item in list)
+
+            List<char> list = new List<char>();
+
+            foreach (string item in strs)
             {
-                Console.WriteLine(item);
+                foreach (char ch in item)
+                {
+                    list.Add(ch);
+                }
+            }
+            List<char> keys = list.Distinct<char>().ToList<char>();
+
+            Dictionary<char, int> dic = new Dictionary<char, int>();
+            foreach (char key in keys)
+            {
+                dic[key] = 1;
+            }
+
+            Dictionary<char, int> temp = new Dictionary<char, int>();
+            foreach (KeyValuePair<char, int> kv in dic)
+            {
+                int num = -1;
+                for (int i = 0; i < list.Count; i++)
+                {
+                    if (kv.Key == list[i])
+                    {
+                        num += 1;
+                    }
+                }
+                temp.Add(kv.Key, kv.Value + num);
+            }
+            dic = temp;
+
+            foreach (KeyValuePair<char, int> kv in dic)
+            {
+                Console.WriteLine("字符：{0}  次数：{1}", kv.Key, kv.Value);
             }
             Console.ReadKey();
         }
