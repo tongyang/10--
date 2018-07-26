@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "复习", "复习\复习.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List泛型集合", "List泛型集合\List泛型集合.csproj", "{B1911C20-E251-4374-90FF-7872C6112F83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "装箱与拆箱", "装箱与拆箱\装箱与拆箱.csproj", "{A41EFFEA-7BFF-4F97-950F-03F3ED155BFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B1911C20-E251-4374-90FF-7872C6112F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1911C20-E251-4374-90FF-7872C6112F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1911C20-E251-4374-90FF-7872C6112F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41EFFEA-7BFF-4F97-950F-03F3ED155BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41EFFEA-7BFF-4F97-950F-03F3ED155BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41EFFEA-7BFF-4F97-950F-03F3ED155BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41EFFEA-7BFF-4F97-950F-03F3ED155BFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
