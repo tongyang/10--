@@ -10,6 +10,7 @@ namespace _10_面向对象多态
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
