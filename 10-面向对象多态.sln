@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List泛型集合", "List泛
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "装箱与拆箱", "装箱与拆箱\装箱与拆箱.csproj", "{A41EFFEA-7BFF-4F97-950F-03F3ED155BFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字典集合", "字典集合\字典集合.csproj", "{C560C71D-2780-429E-B4D1-E31E64BE48A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "泛型练习", "泛型练习\泛型练习.csproj", "{090DE48A-0F9B-4BA9-8433-A43AC0100024}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{A41EFFEA-7BFF-4F97-950F-03F3ED155BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A41EFFEA-7BFF-4F97-950F-03F3ED155BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A41EFFEA-7BFF-4F97-950F-03F3ED155BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C560C71D-2780-429E-B4D1-E31E64BE48A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C560C71D-2780-429E-B4D1-E31E64BE48A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C560C71D-2780-429E-B4D1-E31E64BE48A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C560C71D-2780-429E-B4D1-E31E64BE48A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{090DE48A-0F9B-4BA9-8433-A43AC0100024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090DE48A-0F9B-4BA9-8433-A43AC0100024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090DE48A-0F9B-4BA9-8433-A43AC0100024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090DE48A-0F9B-4BA9-8433-A43AC0100024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
