@@ -22,10 +22,17 @@ namespace 复习
             {
                 Console.WriteLine("转换失败");
             }
-
-            byte[] buffer = File.ReadAllBytes(Path.GetFullPath(@"C:\Users\45294\Desktop\1.txt"));
-            string s = Encoding.GetEncoding("UTF-8").GetString(buffer);
-            Console.WriteLine(s);
+            if (File.Exists(@"C:\Users\45294\Desktop\1.txt"))
+            {
+                byte[] buffer = File.ReadAllBytes(Path.GetFullPath(@"C:\Users\45294\Desktop\1.txt"));
+                string s = Encoding.GetEncoding("UTF-8").GetString(buffer);
+                Console.WriteLine(s);
+            }
+            else
+            {
+                Console.WriteLine("指定路径不存在！");
+            }
+            
 
             string temp = "今天天气真他妈的热";
             byte[] b = Encoding.UTF8.GetBytes(temp);
