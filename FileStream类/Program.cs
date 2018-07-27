@@ -11,6 +11,14 @@ namespace FileStream类
     {
         static void Main(string[] args)
         {
+            //note();
+            string source = @"D:\教程\基础\视频\亲情奉献全套精品.Net基础视频教程之10-面向对象多态\（第十二天）\video\14、最后小结.avi";
+            string target = @"C:\Users\45294\Desktop\1.avi";
+            MediaCopy(source, target);
+        }
+
+        public static void note()
+        {
             // FileStream：操作字节
             // StreamReader和StreamWriter：操作字符
             // 1、创建filestream对象
@@ -37,6 +45,28 @@ namespace FileStream类
 
             //Console.WriteLine("写入成功");
             //Console.ReadKey();
+        }
+
+        public static void MediaCopy(string source, string target)
+        {
+            using (FileStream fsReader = new FileStream(source, FileMode.OpenOrCreate, FileAccess.Read))
+            {
+                using (FileStream fsWriter = new FileStream(target, FileMode.OpenOrCreate, FileAccess.Write))
+                {
+                    while (true)
+                    {
+                        byte[] buffer = new byte[1024 * 1024 * 5];
+                        int r = fsReader.Read(buffer, 0, buffer.Length);
+                        fsWriter.Write(buffer, 0, r);
+                        if (r == 0)
+                        {
+                            break;
+                        }
+                    }
+                }
+            }
+            Console.WriteLine("写入成功");
+            Console.ReadKey();
         }
     }
 }
