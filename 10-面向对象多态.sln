@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "泛型练习", "泛型练�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStream类", "FileStream类\FileStream类.csproj", "{5107CEEB-1B11-442A-AA8C-98DD97ABF55D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriter与StreamReader", "StreamWriter与StreamReader\StreamWriter与StreamReader.csproj", "{0C12B2A9-994B-4FAB-9E00-7589770AFF88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{5107CEEB-1B11-442A-AA8C-98DD97ABF55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5107CEEB-1B11-442A-AA8C-98DD97ABF55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5107CEEB-1B11-442A-AA8C-98DD97ABF55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C12B2A9-994B-4FAB-9E00-7589770AFF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C12B2A9-994B-4FAB-9E00-7589770AFF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C12B2A9-994B-4FAB-9E00-7589770AFF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C12B2A9-994B-4FAB-9E00-7589770AFF88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
