@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStream类", "FileStream
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriter与StreamReader", "StreamWriter与StreamReader\StreamWriter与StreamReader.csproj", "{0C12B2A9-994B-4FAB-9E00-7589770AFF88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态", "多态\多态.csproj", "{C4EC4AF5-56DA-4E5A-B172-AF1A5E077FD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态练习", "多态练习\多态练习.csproj", "{12E31611-157A-4980-B766-06654278E5BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{0C12B2A9-994B-4FAB-9E00-7589770AFF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C12B2A9-994B-4FAB-9E00-7589770AFF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C12B2A9-994B-4FAB-9E00-7589770AFF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4EC4AF5-56DA-4E5A-B172-AF1A5E077FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4EC4AF5-56DA-4E5A-B172-AF1A5E077FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4EC4AF5-56DA-4E5A-B172-AF1A5E077FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4EC4AF5-56DA-4E5A-B172-AF1A5E077FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E31611-157A-4980-B766-06654278E5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E31611-157A-4980-B766-06654278E5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E31611-157A-4980-B766-06654278E5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E31611-157A-4980-B766-06654278E5BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
